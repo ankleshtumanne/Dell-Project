@@ -1,7 +1,7 @@
 const express=require("express")
 const { usermodel, blackListModel } = require("../modules/userModels.js")
 const router=express.Router()
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
 const Auth = require("../middleware/Auth.js");
 
