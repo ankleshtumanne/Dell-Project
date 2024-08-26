@@ -5,6 +5,9 @@ const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 const Auth = require("../middleware/Auth.js");
 
+router.get("/",(req,res)=>{
+    res.send("hello developers")
+})
 router.post("/ragistration",async(req,res)=>{
     const {username,password}=req.body
     
