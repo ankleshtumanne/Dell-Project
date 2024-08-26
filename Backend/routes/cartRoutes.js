@@ -10,9 +10,9 @@ const {
 const Auth = require("../middleware/Auth.js");
 // const router =express.Router();
 
-cartRouter.get("/:id", Auth,getCartData);
-cartRouter.post("/PostInCart",Auth,postToCart);
-cartRouter.put("/inc/:id",Auth,incrementQty);
-cartRouter.put("/dec/:id",Auth,decrementQty);
-cartRouter.delete("/:id", Auth,deleteProduct);
+cartRouter.get("/:id", getCartData);
+cartRouter.post("/PostInCart",postToCart);
+cartRouter.put("/inc/:id",incrementQty);
+cartRouter.put("/dec/:id",decrementQty);
+cartRouter.delete("/:id", deleteProduct);
 module.exports=cartRouter
