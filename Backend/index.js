@@ -7,11 +7,11 @@ var jwt = require('jsonwebtoken');
 const productRouter = require('./routes/productRoutes');
 const  cartRouter  = require('./routes/cartRoutes');
 const app=express()
-
+const cors = require("cors");
 const port=process.env.PORT ||3020
 
 
-
+app.use(cors());
 app.use(express.json())
 app.use("/user",router)
 app.use("/product",productRouter)
