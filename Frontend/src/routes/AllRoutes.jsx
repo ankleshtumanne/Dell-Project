@@ -1,11 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../Components/Home.jsx';
-import Login from '../Components/Login.jsx';
+import Home from '../Components/Home';
+import Login from '../Components/Login';
 
 import PrivateRoute from '../privateRoutes/PrivateRoute.jsx';
-import SignUp from '../Components/SignUp.jsx';
-import Products from '../Components/Products.jsx';
+import SignUp from '../Components/SignUp';
+
+import Products from '../Components/Products';
 
 const AllRoutes = () => {
   return (

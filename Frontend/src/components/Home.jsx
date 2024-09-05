@@ -4,7 +4,7 @@ import "./home.css"
 import CardGrid from './gridCard';
 import Slider from './slidder';
 import ThirdDiv from '../homeComponemts/thirdDiv';
-import FourthDiv from '../homeComponemts/FourthDiv';
+
 import FifthDiv from '../homeComponemts/fifthDiv';
 import SixthDiv from '../homeComponemts/SixthDiv';
 import SeventhDiv from '../homeComponemts/SeventhDiv';
@@ -17,7 +17,7 @@ const Home = () => {
         <Slider></Slider>
         <CardGrid />
         <ThirdDiv/>
-        {/* <FourthDiv/> */}
+       
         <FifthDiv/>
         <SixthDiv/>
         <SeventhDiv/>
