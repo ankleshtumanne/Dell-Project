@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
+import AllRoutes from './routes/AllRoutes'
 
 function App() {
  
   return (
     <>
-      <h1>hello project</h1>
+      <Navbar/>
+      <Sidebar/>
+      <AllRoutes/>
+      <Footer/>
     </>
   )
 }

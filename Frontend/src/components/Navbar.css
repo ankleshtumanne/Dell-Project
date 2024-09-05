@@ -1,0 +1,49 @@
+.logo{
+    width: 10rem;
+    height: 3rem;
+    padding-left: 2rem;
+}
+#search_bar{
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 8rem;
+    height: 35px;
+    
+    padding-top: -40px;
+   
+    
+}
+.SignInSection{
+    width: 8rem;
+    height: 3rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+   
+}
+.personIcon{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+}
+.SignInSection:hover{
+    background-color: rgb(245,246,247);
+}
+.IN_ENSection{
+    width: 7rem;
+    height: 2.7rem;
+    margin-left: 1.5rem;
+    padding-top: 10px;
+}
+.IN_ENSection:hover{
+    background-color:rgb(245,246,247) ;
+}
+.cartSection{
+    width: 7rem;
+    height: 2.7rem;
+    margin-left: 1rem;
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.cartSection:hover{
+    background-color:rgb(245,246,247) ;
+}

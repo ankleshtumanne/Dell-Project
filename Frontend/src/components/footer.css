@@ -1,0 +1,30 @@
+
+Copy code
+.footer-container {
+  background-color: rgb(240,240,240); /* Dark background */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-content h3 {
+  color: #ffffff; /* White text for headings */
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  color: #a0aec0; /* Lighter text color for list items */
+  margin-bottom: 0.5rem;
+}
+
+.footer-content ul li:hover {
+  color: #ffffff; /* Hover effect to change text color */
+}

@@ -1,0 +1,79 @@
+.sideBarDiv{
+    /* border: 1px solid red; */
+    width: 98%;
+    padding-top: -10px;
+}
+.firstDiv{
+    margin-left: -1rem;
+}
+.firstsec{
+    width: 10rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.firstsec:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
+.secondsec{
+    width: 10rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.secondsec:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
+
+.third{
+    width: 12rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.third:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
+.fourth{
+    width: 6rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.fourth:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
+.fifth{
+    width: 6rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.fifth:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
+.sixth{
+    width: 5rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.sixth:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
+.seventh{
+    width: 7rem;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    height: auto;
+}
+.seventh:hover{
+    background-color:rgb(245,246,247) ;
+    border-bottom: 1px solid black;
+}
