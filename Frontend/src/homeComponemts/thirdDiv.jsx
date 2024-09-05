@@ -4,7 +4,7 @@ import { IoArrowForward } from "react-icons/io5";
 
 import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 
-import Products from '../components/Products';
+import Products from '../Components/Products';
   // const navigate = useNavigate(); // Use the useNavigate hook to programmatically navigate
 
   // Function to handle image click
